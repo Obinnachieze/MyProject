@@ -33,5 +33,7 @@ const heyGame = () => {
 const drawNewCard = () => {
   const newCard = 6;
   sum += newCard;
-  startGame();
+  cards.push(newCard);
+  heyGame();
 };
+console.log(cards);
